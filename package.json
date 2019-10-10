@@ -3,7 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ex1": "ava ./tests/ex1.js",
+    "ex2": "ava ./tests/ex2.js",
+    "ex3": "ava ./tests/ex3.js",
+    "ex4": "ava ./tests/ex4.js",
+    "ex5": "ava ./tests/ex5.js",
+    "ex6": "ava ./tests/ex6.js",
+    "ex7": "ava ./tests/ex7.js",
+    "ex8": "ava ./tests/ex8.js",
+    "ex9": "ava ./tests/ex9.js",
+    "ex10": "ava ./tests/ex10.js"
   },
   "repository": {
     "type": "git",
