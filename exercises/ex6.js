@@ -1,4 +1,4 @@
-const map = require('./ex5');
+const filter = require('./ex5');
 
 /**
  * @param {Array} collection { id, title, stars }

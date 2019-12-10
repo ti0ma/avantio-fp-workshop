@@ -1,4 +1,4 @@
-const map = require('./ex7');
+const reduce = require('./ex7');
 
 /**
  * @param {Array} collection { id, title, stars, views }
