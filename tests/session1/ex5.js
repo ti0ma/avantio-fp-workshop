@@ -1,5 +1,5 @@
 const test = require('ava');
-const filter = require('../exercises/ex5');
+const filter = require('../../exercises/session1/ex5');
 
 test('t1', (t) => {
   const result = filter(['1', null, '', 0, '5'], Boolean);

@@ -1,5 +1,5 @@
 const test = require('ava');
-const reduce = require('../exercises/ex7');
+const reduce = require('../../exercises/session1/ex7');
 
 test('t1', (t) => {
   const result = reduce([1, 2, 3, 4, 5], (prev, curr) => prev + curr, 0);

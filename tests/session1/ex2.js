@@ -1,5 +1,5 @@
 const test = require('ava');
-const repeat = require('../exercises/ex2');
+const repeat = require('../../exercises/session1/ex2');
 
 test('t1', (t) => {
   let i = 0;

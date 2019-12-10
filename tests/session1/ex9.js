@@ -1,5 +1,5 @@
 const test = require('ava');
-const getMostViewedMovie = require('../exercises/ex9');
+const getMostViewedMovie = require('../../exercises/session1/ex9');
 const MOVIES = require('./movies');
 
 test('t1', (t) => {
@@ -9,6 +9,6 @@ test('t1', (t) => {
     id: 5,
     title: 'Captain Marvel',
     stars: 4,
-    views: 567
+    views: 567,
   });
 });

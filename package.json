@@ -3,22 +3,31 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "ex1": "ava ./tests/ex1.js",
-    "ex2": "ava ./tests/ex2.js",
-    "ex3": "ava ./tests/ex3.js",
-    "ex4": "ava ./tests/ex4.js",
-    "ex5": "ava ./tests/ex5.js",
-    "ex6": "ava ./tests/ex6.js",
-    "ex7": "ava ./tests/ex7.js",
-    "ex8": "ava ./tests/ex8.js",
-    "ex9": "ava ./tests/ex9.js",
-    "ex10": "ava ./tests/ex10.js"
+    "s1ex1": "ava ./tests/session1/ex1.js",
+    "s1ex2": "ava ./tests/session1/ex2.js",
+    "s1ex3": "ava ./tests/session1/ex3.js",
+    "s1ex4": "ava ./tests/session1/ex4.js",
+    "s1ex5": "ava ./tests/session1/ex5.js",
+    "s1ex6": "ava ./tests/session1/ex6.js",
+    "s1ex7": "ava ./tests/session1/ex7.js",
+    "s1ex8": "ava ./tests/session1/ex8.js",
+    "s1ex9": "ava ./tests/session1/ex9.js",
+    "s1ex10": "ava ./tests/session1/ex10.js",
+    "s2ex1": "ava ./tests/session2/ex1.js",
+    "s2ex2": "ava ./tests/session2/ex2.js",
+    "s2ex3": "ava ./tests/session2/ex3.js",
+    "s2ex4": "ava ./tests/session2/ex4.js",
+    "s2ex5": "ava ./tests/session2/ex5.js",
+    "s2ex6": "ava ./tests/session2/ex6.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ti0ma/avantio-fp-workshop.git"
   },
   "devDependencies": {
-    "ava": "^2.4.0"
+    "ava": "^2.4.0",
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.19.1"
   }
 }

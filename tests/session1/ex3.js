@@ -1,5 +1,5 @@
 const test = require('ava');
-const map = require('../exercises/ex3');
+const map = require('../../exercises/session1/ex3');
 
 test('t1', (t) => {
   const result = map(['1', '2', '3', '4', '5'], Number);

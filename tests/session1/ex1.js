@@ -1,5 +1,5 @@
 const test = require('ava');
-const upperCaser = require('../exercises/ex1');
+const upperCaser = require('../../exercises/session1/ex1');
 
 test('t1', (t) => {
   t.is(upperCaser('avaNTio'), 'AVANTIO');

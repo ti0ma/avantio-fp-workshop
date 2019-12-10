@@ -1,5 +1,5 @@
 const test = require('ava');
-const getMoviesAboveFourStars = require('../exercises/ex6');
+const getMoviesAboveFourStars = require('../../exercises/session1/ex6');
 const MOVIES = require('./movies');
 
 test('t1', (t) => {
@@ -9,11 +9,11 @@ test('t1', (t) => {
     id: 1,
     title: 'Avengers: Endgame',
     stars: 5,
-    views: 123
+    views: 123,
   }, {
     id: 4,
     title: 'Black Panther',
     stars: 5,
-    views: 456
+    views: 456,
   }]);
 });
